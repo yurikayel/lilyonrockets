@@ -25,6 +25,7 @@ Features
 - ❓ Works as a Kotlin when (condition) {} block, but simpler: condition ❓
 
 ```lily    
+
     🏷️ Color
     	    🟠 orange
     	    🟢 green
@@ -43,6 +44,7 @@ Features
         🎭 Jockey
           🚀 makeSound  ↩️ show "The horse makes a sound"
           🚀 ride       ↩️ show "🏇"
+	  
     
     🧩 Cat(Text name, Number age, Text owner)
         🧩 Animal(name, age, owner)
@@ -103,6 +105,7 @@ Features
         2		➡️ show "Value is 2"
         3		➡️ show "Value is 3"
         else		➡️ show "Value is something else"
+    
     
     repeat mutableNumber 🔁 show "Meow number $it"
       
