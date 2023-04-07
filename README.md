@@ -38,6 +38,7 @@ Features
 	        🚀 saddleSetup  ↩️ show "This is method X1"
 	        🚀 ride         ↩️ show "You ride something..."
     
+
     🧩 Horse(Text name, Number age, Text owner)
     	🧩 Animal(name, age, owner)
         🎭 Saddle
