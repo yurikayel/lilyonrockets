@@ -22,7 +22,7 @@ Features
 - 🧐 Define observer variable or function
 - ➡️ “then” keyword in conditional statements
 - 🪵 Applies (toString and prints to log) on every object and primitive found on this log line
-- ❔ Works as a Kotlin when (condition) {} block, but simpler: condition ❔
+- ❓ Works as a Kotlin when (condition) {} block, but simpler: condition ❓
 
 ```lily    
     🏷️ Color
@@ -86,14 +86,18 @@ Features
     
     🪵 list, map, set
     
+    // ternary is preferable over if else
+    // booleans are simplified to either ❌false or ✅true primitives and corresponding emoji
+    📦 isBalenciaga ↩️ isH&M ❓ ❌ : ✅
     
-    myAge ❔
+    
+    myAge ❓
         > 18		➡️ show "You are an adult"
         myAge > 0	➡️ show "You are a minor"
         else		➡️ show "Invalid age"
     
     
-    someValue ❔
+    someValue ❓
         1		➡️ show "Value is 1"
         2		➡️ show "Value is 2"
         3		➡️ show "Value is 3"
