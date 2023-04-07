@@ -1,7 +1,7 @@
 Lily On Rockets 👩‍🚀🔛🚀
 
 
-LilyOnRockets is a programming language that uses Python-like indentation, camelCase syntax, and emojis as keywords. Scopes ({}) are optional and not used by default. It is influenced by Kotlin, JavaScript, TypeScript, Dart, Java, Python, and Rust.
+LilyOnRockets is a pseudo-code format that uses Python-like indentation, camelCase syntax, and emojis as keywords. Keywords still work as expected though. Scopes{} are optional and not used by default. It is influenced by Kotlin, JavaScript, TypeScript, Dart, Java, Python and Rust and intends to be used to convert pseudo-code to viable code on these languages.
 
 This file also serves as formatting/indentation style reference.
 
