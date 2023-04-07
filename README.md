@@ -86,9 +86,10 @@ Features
     
     🪵 list, map, set
     
+    
     // ternary is preferable over if else
     // booleans are simplified to either ❌false or ✅true primitives and corresponding emoji
-    📦 isBalenciaga ↩️ isH&M ❓ ❌ : ✅
+    📦 isBalenciaga ↩️ isH&M or isC&A ❓ ❌ : ✅
     
     
     myAge ❓
