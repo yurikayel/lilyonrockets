@@ -133,13 +133,13 @@ Use the above pseudo-model to create a cute cat fetch and present app
     📩 response.json()
 
 🚀 displayCatImage(CatImage catImage) 🚧
-    show "🐱 Cute Cat Image 🐱"
-    show "ID: ${catImage.id}"
-    show "URL: ${catImage.url}"
+    🪵 "🐱 Cute Cat Image 🐱"
+    🪵 "ID: ${catImage.id}"
+    🪵 "URL: ${catImage.url}"
 
 🚀 main() 🚧
     📦 catImageData 📥 await fetchCatImage()
-    🗿 catImage 📥 CatImage(catImageData.url, catImageData.id)
+    🗿 catImage 📥 CatImage(catImageData[0].url, catImageData[0].id)
     displayCatImage(catImage)
 
 ```
