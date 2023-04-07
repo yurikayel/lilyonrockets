@@ -1,4 +1,4 @@
-Lily On Rockets 👩‍🚀🔛🚀
+# Lily On Rockets 👩‍🚀🔛🚀
 
 
 LilyOnRockets is a pseudo-code format that uses Python-like indentation, camelCase syntax, and emojis as keywords. Keywords still work as expected though. Scopes{} are optional and not used by default.
@@ -112,3 +112,34 @@ Features
     
     repeat mutableNumber 🔁 show "Meow number $it"
       
+```
+
+# Examples:
+```prompt
+Use the above pseudo-model to create a cute cat fetch and present app
+```
+```lily
+
+🏷️ API_URL
+    📥 "https://api.thecatapi.com/v1/images/search"
+
+🧩 CatImage(Text url, Text id)
+    📦 url 📥 url
+    📦 id  📥 id
+
+🚀 fetchCatImage() 🚧
+    📦 response 📥 🚧 fetch(API_URL)
+    ⏰ 1000
+    📩 response.json()
+
+🚀 displayCatImage(CatImage catImage) 🚧
+    show "🐱 Cute Cat Image 🐱"
+    show "ID: ${catImage.id}"
+    show "URL: ${catImage.url}"
+
+🚀 main() 🚧
+    📦 catImageData 📥 await fetchCatImage()
+    🗿 catImage 📥 CatImage(catImageData.url, catImageData.id)
+    displayCatImage(catImage)
+
+```
