@@ -74,13 +74,13 @@ Features
 
     
     🗿 horse	📥 Horse("Bucephalus", 12, "Alexander the Great")
-    🗿 cat		📥 Cat("Whiskers", 3, "Jane")   
+    🗿 cat	📥 Cat("Whiskers", 3, "Jane")   
     🗿 horse	.saddleSetup..sound("Neigh")
-    🗿 cat		.purr(mutableNumber)..sound("Meow")
+    🗿 cat	.purr(mutableNumber)..sound("Meow")
     
     
     📋 list		📥 🔐	[1, 2, 3, 4]
-    🔑 map		📥		{ "key1" to "value1", "key2" to "value2" }
+    🔑 map		📥	{ "key1" to "value1", "key2" to "value2" }
     🃏 set		📥 🔐	{ "item1", "item2", "item3" }
     
     
@@ -88,15 +88,15 @@ Features
     
     
     myAge ❔
-        > 18		  	➡️ show "You are an adult"
-        myAge > 0		➡️ show "You are a minor"
-        else		  	➡️ show "Invalid age"
+        > 18		➡️ show "You are an adult"
+        myAge > 0	➡️ show "You are a minor"
+        else		➡️ show "Invalid age"
     
     
     someValue ❔
-        1		  	➡️ show "Value is 1"
-        2		  	➡️ show "Value is 2"
-        3		  	➡️ show "Value is 3"
+        1		➡️ show "Value is 1"
+        2		➡️ show "Value is 2"
+        3		➡️ show "Value is 3"
         else		➡️ show "Value is something else"
     
     repeat mutableNumber 🔁 show "Meow number $it"
