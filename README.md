@@ -9,18 +9,18 @@ Features
 - 🎭 Define traits and replaces 'implements' keyword
 - 🏷️ Define enums
 - 🧩 Define classes and replaces 'extends' keyword
-- 📥 Use the 📥 emoji for type inference
-- 🗿 Use the 🗿 emoji for immutable variables
-- 📦 Use the 📦 emoji for mutable variables
-- 🚀 Define functions with or without arguments
-- ↩️ Use the ↩️ emoji for the return keyword
-- 🔐 Use the 🔐 emoji to define immutable collections
-- 📋 Define lists with the 📋 emoji
-- 🔑 Define maps with the 🔑 emoji
-- 🃏 Define sets with the 🃏 emoji
+- 📥 Works as assign operator "="
+- 🗿 Immutable variables
+- 📦 Mutable variables
+- 🚀 Functions with or without arguments
+- ↩️ Same as "return" keyword
+- 🔐 Immutable collections prefix
+- 📋 Define lists
+- 🔑 Define maps
+- 🃏 Define sets
 - 🚦 Define observable variables
-- 🧐 Define observer variables
-- ➡️ Use the ➡️ emoji for the “then” keyword in conditional statements
+- 🧐 Define observer variable or function
+- ➡️ “then” keyword in conditional statements
 - 🪵 Applies (toString and prints to log) on every object and primitive found on this log line
 - ❔ Works as a Kotlin when (condition) {} block, but simpler: condition ❔
 
